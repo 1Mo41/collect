@@ -1,0 +1,24 @@
+{
+    "name": "1mo41/collect",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "root",
+            "email": "kolya.gavrilov.220@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^7.4 | ^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Collect\\": "src/"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+
+    }
+}
